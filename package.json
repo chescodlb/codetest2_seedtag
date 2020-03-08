@@ -1,0 +1,38 @@
+{
+  "name": "chescodlb_codetest2_seedtag",
+  "version": "1.0.0",
+  "description": "test for seedtag",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chescodlb/codetest2_seedtag.git"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "keywords": [
+    "seedtag"
+  ],
+  "author": "Francisco J. De La Blanca",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/chesco/chescodlb_codetest_seedtag#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/chescodlb/codetest2_seedtag/issues"
+  }
+}
